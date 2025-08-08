@@ -30,6 +30,11 @@
     </dependencyManagement>
 
     <dependencies>
+        <dependency> <!-- Unused dependency -->
+            <groupId>aws.sdk.kotlin</groupId>
+            <artifactId>aws-config-jvm</artifactId>
+            <version>1.5.13</version>
+        </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-rest</artifactId>
